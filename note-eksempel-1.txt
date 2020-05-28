@@ -1,0 +1,11 @@
+HTML i kaptitel1.xhtml:
+<p>her er din brødtekst<a class="noteanchor" epub:type="noteref" href="../Text/endnotes.xhtml#ftn16" id="bodyftn16">[16]</a></p>
+
+HTML i et dokument kun med noterene i kaldet endnotes.xhtml:
+  <aside epub:type="footnote" id="ftn16">
+    <p class="note"><a class="noteSymbol" href="../Text/kapitel1.xhtml#bodyftn16">16</a> Her står selve noteforklaringen til note nummer 16.</p>
+  </aside>
+
+Husk at tagge body i dokumentet endnotes.xhtml med et id:
+  <body id="noter" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+
